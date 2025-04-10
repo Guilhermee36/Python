@@ -1,0 +1,10 @@
+media = float(input("Digite a média do aluno: "))
+frequencia = float(input("Digite o percentual da frequência: "))
+
+if frequencia >= 75:
+    if media >= 6:
+        print("Aluno Aprovado")
+    else:
+        print("Aluno Reprovado por nota")
+else:
+    print("Aluno reprovado por falta")
